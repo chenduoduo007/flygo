@@ -3,7 +3,6 @@ package fly
 import "os"
 
 func resolveAddress(addr []string) string {
-	println(os.Getenv("HOME"),"port")
 	switch len(addr) {
 	case 0:
 		if port := os.Getenv("PORT"); port != "" {
