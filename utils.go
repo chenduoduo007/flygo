@@ -1,6 +1,10 @@
-package fly
+package flygo
 
-import "os"
+import (
+	"os"
+	"reflect"
+	"runtime"
+)
 
 func resolveAddress(addr []string) string {
 	switch len(addr) {
@@ -14,4 +18,8 @@ func resolveAddress(addr []string) string {
 	default:
 		panic("too many parameters")
 	}
+}
+
+func nameOfFunction(f interface{}) string {
+	return runtime.FuncForPC(reflect.ValueOf(f).Pointer()).Name()
 }
