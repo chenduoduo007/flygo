@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1181cdd6-4439-4214-881a-9795c966cca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/form.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,30 +27,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flygo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="992">
-              <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+            <state relative-caret-position="709">
+              <caret line="114" column="38" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="38" />
               <folding>
-                <element signature="e#196#616#0" />
-                <element signature="e#216#439#0" />
-                <element signature="e#449#614#0" />
-                <element signature="n#!!block;n#Last#0" />
-                <element signature="e#695#720#0" />
                 <element signature="n#!!block;n#rebuild404Handlers#0" />
                 <element signature="n#!!block;n#New#0" />
                 <element signature="n#!!block;n#Default#0" />
-                <element signature="e#1188#1235#0" />
                 <element signature="n#!!block;n#Group#0" />
-                <element signature="e#1401#1473#0" />
                 <element signature="n#!!block;n#Use#0" />
                 <element signature="n#!!block;n#addRoute#0" />
                 <element signature="n#!!block;n#combineHandlers#0" />
-                <element signature="e#2110#2143#0" />
                 <element signature="n#!!block;n#GET#0" />
                 <element signature="n#!!block;n#POST#0" />
-                <element signature="n#!!block;n#createStaticHandler#0" />
-                <element signature="e#2832#3065#0" />
-                <element signature="e#2973#3021#0" />
-                <element signature="n#!!block;n#Static#0" />
                 <element signature="n#!!block;n#Run#0" />
                 <element signature="n#!!block;n#NoRoute#0" />
               </folding>
@@ -60,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binding.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
@@ -81,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/context.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="999">
               <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="e#704#733#0" />
@@ -116,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/form.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -133,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="216">
               <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
@@ -142,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/go.mod">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
@@ -164,6 +150,7 @@
     <findStrings>
       <find>index</find>
       <find>gee</find>
+      <find>Static</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -199,19 +186,19 @@
         <option value="$PROJECT_DIR$/bindding/bindding.go" />
         <option value="$PROJECT_DIR$/utils.go" />
         <option value="$PROJECT_DIR$/context.go" />
-        <option value="$PROJECT_DIR$/go.mod" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/router.go" />
-        <option value="$PROJECT_DIR$/flygo.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/form.go" />
         <option value="$PROJECT_DIR$/binding.go" />
+        <option value="$PROJECT_DIR$/flygo.go" />
+        <option value="$PROJECT_DIR$/go.mod" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1072" />
-    <option name="y" value="23" />
+    <option name="x" value="646" />
+    <option name="y" value="377" />
     <option name="width" value="1488" />
     <option name="height" value="1417" />
   </component>
@@ -220,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,6 +218,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,9 +269,10 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1072" y="23" width="1488" height="1417" extended-state="0" />
+    <frame x="646" y="377" width="1488" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1970752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20403899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -518,72 +506,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mode.go">
+    <entry file="file://$PROJECT_DIR$/binding.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#15#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flygo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
-          <folding>
-            <element signature="e#196#616#0" />
-            <element signature="e#216#439#0" />
-            <element signature="e#449#614#0" />
-            <element signature="n#!!block;n#Last#0" />
-            <element signature="e#695#720#0" />
-            <element signature="n#!!block;n#rebuild404Handlers#0" />
-            <element signature="n#!!block;n#New#0" />
-            <element signature="n#!!block;n#Default#0" />
-            <element signature="e#1188#1235#0" />
-            <element signature="n#!!block;n#Group#0" />
-            <element signature="e#1401#1473#0" />
-            <element signature="n#!!block;n#Use#0" />
-            <element signature="n#!!block;n#addRoute#0" />
-            <element signature="n#!!block;n#combineHandlers#0" />
-            <element signature="e#2110#2143#0" />
-            <element signature="n#!!block;n#GET#0" />
-            <element signature="n#!!block;n#POST#0" />
-            <element signature="n#!!block;n#createStaticHandler#0" />
-            <element signature="e#2832#3065#0" />
-            <element signature="e#2973#3021#0" />
-            <element signature="n#!!block;n#Static#0" />
-            <element signature="n#!!block;n#Run#0" />
-            <element signature="n#!!block;n#NoRoute#0" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/context.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
+        <state relative-caret-position="999">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="e#704#733#0" />
@@ -614,14 +546,58 @@
     <entry file="file://$PROJECT_DIR$/form.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binding.go">
+    <entry file="file://$PROJECT_DIR$/middleware.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flygo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!block;n#rebuild404Handlers#0" />
+            <element signature="n#!!block;n#New#0" />
+            <element signature="n#!!block;n#Default#0" />
+            <element signature="n#!!block;n#Group#0" />
+            <element signature="n#!!block;n#Use#0" />
+            <element signature="n#!!block;n#addRoute#0" />
+            <element signature="n#!!block;n#combineHandlers#0" />
+            <element signature="n#!!block;n#GET#0" />
+            <element signature="n#!!block;n#POST#0" />
+            <element signature="n#!!block;n#Run#0" />
+            <element signature="n#!!block;n#NoRoute#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
