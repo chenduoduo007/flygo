@@ -5,7 +5,14 @@ a simple web framework
    
 go get -u github.com/chenduoduo007/flygo
 
+go mod
     
+    require (
+    	github.com/chenduoduo007/flygo v0.0.2
+    )
+
+main.go
+
     package main
     
     import "github.com/chenduoduo007/flygo"
