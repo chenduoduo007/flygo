@@ -19,18 +19,22 @@ main.go
     
     func main()  {
         r := flygo.Default()
-        
         r.GET("/", func(c *flygo.Context) {
             c.String(http.StatusOK, "Hello Flygo")
         })
-        
+    
         r.GET("/api", func(c *flygo.Context) {
             data := map[string]interface{}{
                 "code": 200,
                 "msg": "success",
-                "data": map[string]interface{},
+                "data": map[string]interface{}{},
             }
             c.JSON(http.StatusOK, data)
         })
-        r.Run(":8080")
+        endPoint := ":8080"
+        log.Printf("[info] start http server listening %s", endPoint)
+        err := r.Run(endPoint)
+        if err != nil {
+            log.Printf("[error] %s", err)
+        }
     }
